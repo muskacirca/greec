@@ -29,6 +29,7 @@
         <version.hibernate>4.3.5.Final</version.hibernate>
         <version.hsqldb>2.3.2</version.hsqldb>
         <version.slf4j>1.7.7</version.slf4j>
+        <version.commons-collections>3.2.1</version.commons-collections>
 
         <version.maven.war.plugin>2.4</version.maven.war.plugin>
         <version.wildfly.plugin>1.0.2.Final</version.wildfly.plugin>
@@ -65,6 +66,12 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>commons-collections</groupId>
+                <artifactId>commons-collections</artifactId>
+                <version>${version.commons-collections}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.jboss.resteasy</groupId>
                 <artifactId>resteasy-jaxrs</artifactId>
@@ -104,6 +111,16 @@
         </dependencies>
     </dependencyManagement>
 
-
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.wildfly.plugins</groupId>
+                    <artifactId>wildfly-maven-plugin</artifactId>
+                    <version>${version.wildfly.plugin}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 
 </project>

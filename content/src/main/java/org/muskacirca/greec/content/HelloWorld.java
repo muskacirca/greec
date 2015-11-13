@@ -1,4 +1,4 @@
-package org.muskacirca.greec;
+package org.muskacirca.greec.content;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

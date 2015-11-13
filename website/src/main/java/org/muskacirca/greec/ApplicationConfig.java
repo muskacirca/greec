@@ -1,5 +1,7 @@
 package org.muskacirca.greec;
 
+import org.muskacirca.greec.content.HelloWorld;
+
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 import java.util.HashSet;
