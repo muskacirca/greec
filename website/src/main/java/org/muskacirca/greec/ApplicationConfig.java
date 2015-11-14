@@ -1,6 +1,6 @@
 package org.muskacirca.greec;
 
-import org.muskacirca.greec.content.HelloWorld;
+import org.muskacirca.greec.content.Users;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
@@ -18,7 +18,7 @@ ApplicationConfig extends Application {
     @Override
     public Set<Class<?>> getClasses() {
         Set<Class<?>> classes = new HashSet<>();
-        classes.add(HelloWorld.class);
+        classes.add(Users.class);
         return classes;
     }
 }

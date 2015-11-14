@@ -18,7 +18,7 @@
 
         <dependency>
             <groupId>org.muskacirca.greec</groupId>
-            <artifactId>content</artifactId>
+            <artifactId>user</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
 
