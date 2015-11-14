@@ -19,3 +19,9 @@ phpmyadmin
   Root User: adminN78mwuB
   Root Password: gkqjgwbz9T5l
 URL: https://greec-muskacirca.rhcloud.com/phpmyadmin/
+
+Jenkins
+   User: admin
+   Password: SAyaR4NBc_s1
+
+Note:  You can change your password at: https://jenkins-muskacirca.rhcloud.com/me/configure

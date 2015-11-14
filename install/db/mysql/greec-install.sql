@@ -2,6 +2,8 @@
 -- DB: greec - MySql5
 --
 
+USE greec;x
+
 CREATE TABLE IF NOT EXISTS User (
   id bigint(20) NOT NULL AUTO_INCREMENT,
   creationDate datetime NOT NULL,
