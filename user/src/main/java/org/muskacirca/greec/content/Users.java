@@ -28,7 +28,8 @@ public class Users {
 
     @GET
     @Path("/{login}")
-    @Produces(MediaType.TEXT_PLAIN)
+    @Produces(MediaType.APPLICATION_JSON)
+    @Consumes(MediaType.APPLICATION_JSON)
     public User findByLogin(@NotNull @PathParam("login") String login) {
         User user = userFinder.findByLogin("login");
         LOG.debug("found user : " + user);

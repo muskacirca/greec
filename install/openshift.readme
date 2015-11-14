@@ -1,0 +1,21 @@
+Wildfly 8.9.2
+
+login : adminN78mwuB
+password :  gkqjgwbz9T5l
+
+MySQL 5.5 database added.  Please make note of these credentials:
+
+       Root User: adminN78mwuB
+   Root Password: gkqjgwbz9T5l
+   Database Name: greec
+
+Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
+
+You can manage your new MySQL database by also embedding phpmyadmin.
+The phpmyadmin username and password will be the same as the MySQL credentials above.
+
+phpmyadmin
+
+  Root User: adminN78mwuB
+  Root Password: gkqjgwbz9T5l
+URL: https://greec-muskacirca.rhcloud.com/phpmyadmin/
