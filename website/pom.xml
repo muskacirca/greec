@@ -59,7 +59,7 @@
                     <plugin>
                         <artifactId>maven-war-plugin</artifactId>
                         <configuration>
-                            <warName>${project.parent.artifactId}-${project.artifactId}</warName>
+                            <warName>${project.name}</warName>
                             <outputDirectory>deployments</outputDirectory>
                         </configuration>
                     </plugin>
