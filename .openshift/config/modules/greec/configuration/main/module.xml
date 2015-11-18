@@ -2,6 +2,5 @@
 <module xmlns="urn:jboss:module:1.1" name="greec.configuration">
     <resources>
         <resource-root path="."/>
-
     </resources>
 </module>
