@@ -59,8 +59,8 @@
                     <plugin>
                         <artifactId>maven-war-plugin</artifactId>
                         <configuration>
-                            <warName>${project.artifactId}</warName>
-                            <outputDirectory>deployments</outputDirectory>
+                            <warName>${project.name}</warName>
+                            <outputDirectory>../deployments</outputDirectory>
                         </configuration>
                     </plugin>
                 </plugins>
